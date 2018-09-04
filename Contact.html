@@ -2,19 +2,47 @@
 <html>
 
 <head>
-	<h1 align="center"> Contact </h1>
+<link rel="stylesheet" type="text/css" href="css.css">
+	<h1 align="center"> Contact Me</h1>
 </head>
 
 <body>
 
-<div id="Navigation">
-<li> <button> <a href="index.html"> Home </a> </button> </li>
-<li> <button> <a href="About.html"> About </a> </button> </li>
-<li> <button> <a href="Projects.html"> Projects </a> </button> </li>
-<li> <button> <a href="Skills.html"> Skills </a> </button></li>
+<div id="nav" class="nav">
 
+<ul>
+<li>  <a href="index.html"> Home </a>  </li> 
+<li>  <a href="About.html"> About </a>  </li>
+<li> <a href="Projects.html"> Projects </a>  </li> 
+<li>  <a href="Skills.html"> Skills </a> </li> 
+</ul>
 
 </div>		
+<br>
+<div id="form" align="center">
+
+<form>
+<br> <br> <br>
+First Name : <input type="text"> </input> <br> <br>
+Email Address : <input type="text"> </input> <br> <br>
+Mobile Number : <input type="text"> </input> <br> <br>
+Select Employee Position : <select> 
+ 
+<option value="QAEmployee"> QA Employee </option>
+<option value="Developer"> Developer  </option>
+<option value="Recruiter"> Recruiter </option>
+ </select> <br> <br>
+
+Enter Message : <br> <br>
+ <textarea id="message" placeholder="type message..."> </textarea> <br> <br>
+
+<button type="submit"  id="msg"> Send Message </button>
+
+</form>
+</div>
+
+
+
 
 </body>
 
